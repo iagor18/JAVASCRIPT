@@ -1,0 +1,30 @@
+*{
+    font-family: arial;
+    padding: 0px;
+    background-color: rgb(198, 198, 255);
+}
+
+.container {
+    display: flex;
+    background-color: blueviolet;
+    gap: 5px;
+    height: 500px;
+    flex-direction: row; 
+    /* align-items:start; */
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 142, 255);
+}
+
+.item3{
+    align-self: center;
+    order: 2;
+}
+
+.item6{
+    order:3;
+    align-self: end;
+}
